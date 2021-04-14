@@ -1,0 +1,111 @@
+{
+	"id": "b08db56b-eb88-4edc-9097-193f6e696a09",
+	"name": "Dearer Sample Collection",
+	"timestamp": "2021-02-08T20:35:53.523Z",
+	"collection_id": "9fdd0744-7372-470d-b07c-51c307b33092",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 3,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "166a77d5-ae44-4eb6-8e33-0763224cca98",
+			"name": "Registration ",
+			"url": "http://development.mawashi.tools:8080/api/rest/v1.0/auth/signup",
+			"time": 343,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				343
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "5f0495e5-26dd-4a9b-be63-7e7fc8df49d0",
+			"name": "Login",
+			"url": "http://development.mawashi.tools:8080/api/rest/v1.0/auth/signin",
+			"time": 181,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				181
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b60ff7f0-2f1f-4a16-a177-6d015533dba2",
+			"name": "Get Request List",
+			"url": "http://development.mawashi.tools:8080/api/rest/v1.0/",
+			"time": 73,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				73
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 597,
+	"collection": {
+		"requests": [
+			{
+				"id": "166a77d5-ae44-4eb6-8e33-0763224cca98",
+				"method": "POST"
+			},
+			{
+				"id": "5f0495e5-26dd-4a9b-be63-7e7fc8df49d0",
+				"method": "POST"
+			},
+			{
+				"id": "b60ff7f0-2f1f-4a16-a177-6d015533dba2",
+				"method": "GET"
+			}
+		]
+	}
+}
